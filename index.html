@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Study Game</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col 1">
+                <header>
+                    <a href="highscores.html">View Highscores</a>
+                </header>
+
+            </div>
+            <div class="col 10">
+
+            </div>
+            <div class="col 1">
+                <h3 id="timer" style="text-align: right;">
+                    Time:
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <header class="col 12">
+                <h1>Code Quiz</h1>
+            </header>
+        </div>
+
+        <div class="row">
+            <header class="col 12">
+                <h2 id="question">
+                    <!--This will become the question-->
+                </h2>
+            </header>
+        </div>
+
+        <div class="row">
+            <header class="col 12">
+                <!--These are the different possible answers to the questions.-->
+                <button id="a1" type="button" class="btn btn-secondary btn-lg btn-block" style="visibility: hidden;"></button>
+            </header>
+        </div>
+        <br>
+        <div class="row">
+            <header class="col 12">
+                <!--These are the different possible answers to the questions.-->
+                <button id="a2" type="button" class="btn btn-secondary btn-lg btn-block" style="visibility: hidden;"></button>
+            </header>
+        </div>
+        <br>
+        <div class="row">
+            <header class="col 12">
+                <!--These are the different possible answers to the questions.-->
+                <button id="a3" type="button" class="btn btn-secondary btn-lg btn-block" style="visibility: hidden;"></button>
+            </header>
+        </div>
+        <br>
+        <div class="row">
+            <header class="col 12">
+                <!--These are the different possible answers to the questions.-->
+                <button id="a4" type="button" class="btn btn-secondary btn-lg btn-block" style="visibility: hidden;"></button>
+            </header>
+        </div>
+
+
+        <div class="row">
+            <div id="main" class="col 12">
+                <button id="start" type="button" class="btn btn-secondary btn-lg btn-block">Start the Code Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

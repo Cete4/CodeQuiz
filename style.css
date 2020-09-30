@@ -1,0 +1,32 @@
+/*TODO: Comment this*/
+h1{
+    text-align: center;
+    color: black;
+    size: 30px;
+}
+
+/*TODO: Comment this*/
+body{
+    background-color: white;
+}
+
+a{
+    size: 20px;
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    text-decoration-color: purple;
+    text-decoration-style: none;
+}
+
+h3{
+    size: 20px;
+    color: lightslategray;
+}
+
+button{
+    margin: 10;
+}
